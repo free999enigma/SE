@@ -15,13 +15,13 @@
             class="flex items-center border-b border-b-2 border-blue-400 py-2"
           >
             <input
-              ref="emailInput"
+              ref="urlInput"
               v-model="form.email"
-              class="appearance-none mb-36 bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+              class="appearance-none mb-36 bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-3 leading-tight focus:outline-none"
               type="text"
               name="email"
-              placeholder="your@email.com"
-              aria-label="Email address"
+              placeholder="https://..."
+              aria-label="URL Address"
             />
 
             <button
